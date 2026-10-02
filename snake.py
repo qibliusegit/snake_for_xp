@@ -41,7 +41,7 @@ while run:
         if event.type == pygame.QUIT:
             pygame.quit()
             exit()
-    pygame.draw.rect(window, "red", food)
+    pygame.draw.rect(window, (255, 0, 0), food)
     pygame.display.flip()
     pygame.time.Clock().tick(10)
     events = pygame.event.get()
@@ -84,7 +84,7 @@ while run:
         snake_body.append([food_x, food_y])
         randomize_food()
         food = pygame.Rect(food_x, food_y, 10, 10)
-        pygame.draw.rect(window, "red", food)
+        pygame.draw.rect(window, (255, 0, 0), food)
     
     if snake_pos[0] < 0 or snake_pos[0] > 720:
         run = False
