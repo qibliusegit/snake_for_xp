@@ -16,8 +16,8 @@ All of the packages you need are in this repo (outside of Windows XP itself, go 
 Things you need to install:
 1. Python 3.4 (.exe file)
 2. Pygame (.whl file)
+*(the rest of these are optional, for if you want to make your own executables)*
 3. pywin32 (.exe file)
-(the rest of these are optional, for if you want to make your own executables)
 4. pywin32_ctypes (.whl file)
 5. altgraph (.whl file)
 6. future (.whl file)
@@ -25,7 +25,7 @@ Things you need to install:
 8. pefile (.zip file)
 9. PyInstaller (.tar.gz file)
 
-Once you've installed all of these, either by running them or using `python -m pip install filename`, you're all set! Just run the snake file in snake_executable/dist/snake/snake.exe and enjoy!
+Once you've installed all of these, either by running them or using `python -m pip install filename.filetype`, you're all set! Just run the snake file in snake_executable/dist/snake/snake.exe and enjoy!
 
 --- 
 ## Future Plans ##
